@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Twitch Online",
+    "description": "This extension will show you a list of wich of your followed channels are streaming.",
+    "version": "1.0",
+  
+    "browser_action": {
+     "default_icon": "app-icons-twitch.png",
+     "default_popup": "popup.html"
+    },
+    "permissions": [
+     
+     ]
+  }
