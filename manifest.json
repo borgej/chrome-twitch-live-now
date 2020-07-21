@@ -6,10 +6,17 @@
     "version": "1.0",
   
     "browser_action": {
-     "default_icon": "app-icons-twitch.png",
-     "default_popup": "popup.html"
+        "default_icon": "app-icons-twitch.png",
+        "default_popup": "popup.html"
     },
+    "content_scripts": [ 
+        { 
+            "js": [ "jquery.min.js", "twitch.js", "bootstrap.min.js", "popper.min.js" ],
+            "matches": [ "http://*/*", "https://*/*"],
+            "run_at": "document_end"
+        }
+     ], 
     "permissions": [
      
-     ]
+    ]
   }
