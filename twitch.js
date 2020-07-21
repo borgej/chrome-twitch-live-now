@@ -1,3 +1,5 @@
+var CLIENT_ID = "vxvqei2z004g5l7ygp0c7qlmfwwulm";
+
 var user;
 var followedChannels = [];
 var onlineChannels = [];
