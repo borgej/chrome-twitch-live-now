@@ -1,4 +1,4 @@
-# chrome-twitch-online
+# chrome-twitch-live-now
 Chrome extension for seeing your followed channels online/offline info
 
 Testing it out
